@@ -41,3 +41,10 @@ strong{
 		margin-left: 96%;
 	}
 }
+
+.info{
+	background-color: orange;
+	color: #fff;
+	text-align: center;
+	line-height: 3;
+}
