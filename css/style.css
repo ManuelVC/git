@@ -9,3 +9,33 @@ body{
 strong{
 	font-size: 2em;
 }
+.container{
+	margin: 3em 0;
+}
+.pelota,.pelota2,.pelota3,.pelota4,.pelota5{
+	width: 50px;
+	height: 50px;
+	background-color: gold;
+	border-radius: 50%;
+}
+.pelota{
+	animation: trasladar 2s linear infinite;
+}
+.pelota2{
+	animation: trasladar 1.8s linear infinite;
+}
+.pelota3{
+	animation: trasladar 3s linear infinite;
+}
+.pelota4{
+	animation: trasladar 1.5s linear infinite;
+}
+.pelota5{
+	animation: trasladar 2.5s linear infinite;
+}
+
+@keyframes trasladar{
+	50%{
+		margin-left: 96%;
+	}
+}
