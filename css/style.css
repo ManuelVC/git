@@ -48,3 +48,21 @@ strong{
 	text-align: center;
 	line-height: 3;
 }
+
+.navbar{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+.links{
+	padding: .5em 1em;
+	background-color: tomato;
+	color: #fff;
+	cursor: pointer;
+	margin-right: .5em;
+}
+.links:hover{
+	opacity: .8;
+}
